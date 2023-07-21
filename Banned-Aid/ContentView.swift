@@ -4,7 +4,6 @@
 //
 //  Created by anya kondamani on 7/19/23.
 //
-
 import SwiftUI
 
 struct ContentView: View {
@@ -45,7 +44,7 @@ struct ContentView: View {
                         .foregroundColor(Color("Color6"))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 10.0)
-                    NavigationLink(destination:secondview()){
+                    NavigationLink(destination:thirdview()){
                         Text("learn more here")
                             .font(.caption)
                             .fontWeight(.semibold)

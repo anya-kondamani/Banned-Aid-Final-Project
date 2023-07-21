@@ -11,8 +11,14 @@
 		A10777F42A6830860000B012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10777F32A6830860000B012 /* ContentView.swift */; };
 		A10777F62A68308B0000B012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10777F52A68308B0000B012 /* Assets.xcassets */; };
 		A10777F92A68308B0000B012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10777F82A68308B0000B012 /* Preview Assets.xcassets */; };
-		A10778002A6834070000B012 /* secondview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10777FF2A6834070000B012 /* secondview.swift */; };
 		A10778022A69AB600000B012 /* infoview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10778012A69AB600000B012 /* infoview.swift */; };
+		A10778042A6ACED90000B012 /* thirdview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10778032A6ACED90000B012 /* thirdview.swift */; };
+		A10778082A6AD3B20000B012 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10778072A6AD3B20000B012 /* AddBookView.swift */; };
+		A107780A2A6AD3EA0000B012 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10778092A6AD3EA0000B012 /* RatingView.swift */; };
+		A107780C2A6AD4220000B012 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107780B2A6AD4220000B012 /* EmojiRatingView.swift */; };
+		A107780E2A6AD44F0000B012 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107780D2A6AD44F0000B012 /* DetailView.swift */; };
+		A10778112A6AD67F0000B012 /* BookWarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A107780F2A6AD67F0000B012 /* BookWarm.xcdatamodeld */; };
+		A10778132A6ADDD90000B012 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10778122A6ADDD90000B012 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +27,14 @@
 		A10777F32A6830860000B012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A10777F52A68308B0000B012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10777F82A68308B0000B012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A10777FF2A6834070000B012 /* secondview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondview.swift; sourceTree = "<group>"; };
 		A10778012A69AB600000B012 /* infoview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoview.swift; sourceTree = "<group>"; };
+		A10778032A6ACED90000B012 /* thirdview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdview.swift; sourceTree = "<group>"; };
+		A10778072A6AD3B20000B012 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		A10778092A6AD3EA0000B012 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		A107780B2A6AD4220000B012 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		A107780D2A6AD44F0000B012 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A10778102A6AD67F0000B012 /* BookWarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookWarm.xcdatamodel; sourceTree = "<group>"; };
+		A10778122A6ADDD90000B012 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,15 @@
 			children = (
 				A10777F12A6830860000B012 /* Banned_AidApp.swift */,
 				A10777F32A6830860000B012 /* ContentView.swift */,
-				A10777FF2A6834070000B012 /* secondview.swift */,
+				A10778032A6ACED90000B012 /* thirdview.swift */,
 				A10778012A69AB600000B012 /* infoview.swift */,
+				A10778072A6AD3B20000B012 /* AddBookView.swift */,
+				A10778092A6AD3EA0000B012 /* RatingView.swift */,
+				A107780B2A6AD4220000B012 /* EmojiRatingView.swift */,
+				A107780D2A6AD44F0000B012 /* DetailView.swift */,
+				A107780F2A6AD67F0000B012 /* BookWarm.xcdatamodeld */,
 				A10777F52A68308B0000B012 /* Assets.xcassets */,
+				A10778122A6ADDD90000B012 /* DataController.swift */,
 				A10777F72A68308B0000B012 /* Preview Content */,
 			);
 			path = "Banned-Aid";
@@ -143,10 +161,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A107780E2A6AD44F0000B012 /* DetailView.swift in Sources */,
+				A10778082A6AD3B20000B012 /* AddBookView.swift in Sources */,
+				A10778112A6AD67F0000B012 /* BookWarm.xcdatamodeld in Sources */,
 				A10778022A69AB600000B012 /* infoview.swift in Sources */,
 				A10777F42A6830860000B012 /* ContentView.swift in Sources */,
+				A10778132A6ADDD90000B012 /* DataController.swift in Sources */,
+				A107780C2A6AD4220000B012 /* EmojiRatingView.swift in Sources */,
+				A10778042A6ACED90000B012 /* thirdview.swift in Sources */,
 				A10777F22A6830860000B012 /* Banned_AidApp.swift in Sources */,
-				A10778002A6834070000B012 /* secondview.swift in Sources */,
+				A107780A2A6AD3EA0000B012 /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +369,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A107780F2A6AD67F0000B012 /* BookWarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A10778102A6AD67F0000B012 /* BookWarm.xcdatamodel */,
+			);
+			currentVersion = A10778102A6AD67F0000B012 /* BookWarm.xcdatamodel */;
+			path = BookWarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A10777E62A6830860000B012 /* Project object */;
 }
